@@ -1,0 +1,46 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('/Users/Admin/Documents/frontend/images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 70px;
+}
+
+
+
+h1 {
+  font-size: 5em;
+  color: #b91c4e;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  font-weight: bold; /* Add bold styling */
+
+  background: linear-gradient(to right, #eb3b73, #fd5d35); /* Gradient color */
+  -webkit-background-clip: text; /* Apply gradient only to the text */
+  -webkit-text-stroke: 2px #6c0a26; /* Text outline */
+
+  color: transparent; /* Make the text transparent */
+}
+
+
+p {
+  font-family: 'Arial', sans-serif;
+  font-size: 5em;
+  color: #0cab19;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  background: linear-gradient(to right, #33b807, #15e8b0); /* Gradient color */
+  -webkit-background-clip: text; /* Apply gradient only to the text */
+  -webkit-text-stroke: 1px #1a9f05; /* Text outline */
+  font-weight: bold; /* Add bold styling */
+}
+
+.loading {
+  color: #888888;
+}
